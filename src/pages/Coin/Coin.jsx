@@ -1,10 +1,10 @@
 import React, { useEffect, useState, useContext} from 'react'
-import './Coin.css'
+import './COin.css'
 import {useParams} from 'react-router-dom'
 import {CoinContext} from '../../context/CoinContext'
 import LineChart from '../../components/LineChart/LineChart'
 
-const Coin = () => {
+const COin = () => {
     const {coinId} = useParams();
     const [coinData, setCoinData] = useState();
     const [historicalData, setHistoricalData] = useState()
@@ -85,4 +85,4 @@ const Coin = () => {
     }
 }
 
-export default Coin
+export default COin
