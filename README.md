@@ -31,3 +31,36 @@ A modern React-based web app that displays real-time cryptocurrency data using t
 - **Chart.js + react-chartjs-2** – For rendering price charts
 - **CoinGecko API** – Real-time crypto data provider
 - **CSS / SCSS** – Styling
+
+  
+## 📁 Folder Structure
+
+├── public ├── src │ ├── components │ │ ├── Navbar/ │ │ ├── Footer/ │ ├── pages │ │ ├── Home/ │ │ ├── Coin/ │ │ ├── Signup/ │ │ ├── Feature/ │ ├── App.js │ ├── index.js
+
+
+---
+
+## 🧪 Getting Started
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/vivaangoyal29/Crypto-Projectory.git
+cd Crypto-Projectory
+```
+###2. Install Dependencies
+```bash
+npm install
+```
+###3. Start Development Server
+```bash
+npm start
+```
+
+# 📦API Usage
+- Cryptocurrency listings
+- Detailed coin data via /coins/{id}
+- Historical market chart data via /coins/{id}/market_chart
+- 📌No API key required. CoinGecko provides free access for public projects.
+
+
+
