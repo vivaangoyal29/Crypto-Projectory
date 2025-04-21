@@ -1,12 +1,33 @@
-# React + Vite
+# 🪙 Crypto Projectory
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React-based web app that displays real-time cryptocurrency data using the [CoinGecko API](https://www.coingecko.com/en/api). Users can explore trending and top cryptocurrencies, click on individual coins to view detailed information, and visualize market trends with interactive charts.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 [Crypto Projectory](https://crypto-projectory.vercel.app/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- 🔍 **Explore Cryptocurrencies** – View a list of trending and top cryptocurrencies.
+- 📈 **Coin Detail Page** – Click on a coin to view its full data, including:
+  - Market cap
+  - Price change percentage
+  - 24h high/low
+  - Market stats
+  - Description
+- 📊 **Interactive Charts** – Visualize price trends for each coin using historical data.
+- 🧾 **Feature Page** – A section showcasing the key benefits and functionality of the app.
+- 👤 **Signup Page** – Simple local signup form using `localStorage`.
+
+---
+
+## 🛠️ Tech Stack
+
+- **React.js** – Frontend framework
+- **React Router** – Client-side routing
+- **Axios** – For API calls
+- **Chart.js + react-chartjs-2** – For rendering price charts
+- **CoinGecko API** – Real-time crypto data provider
+- **CSS / SCSS** – Styling
