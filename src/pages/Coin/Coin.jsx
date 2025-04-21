@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useContext} from 'react'
-import './Coin.css'
+import './COin.css'
 import {useParams} from 'react-router-dom'
 import {CoinContext} from '../../context/CoinContext'
 import LineChart from '../../components/LineChart/LineChart'
